@@ -9,13 +9,11 @@ import {
   git,
   github1,
   html,
-  icd,
   java_logo,
   maestrominds,
   mobile,
   mongodb,
   node_logo,
-  rag,
   react_logo,
   sql,
   web
@@ -191,56 +189,7 @@ const projects = [
     image: a3e_dip,
     source_code_link: "https://play.google.com/store/apps/details?id=com.education.nurse&pcampaignid=web_share",
   },
-  {
-    name: "ICD Code Mapper",
-    description:
-      "This project automates the assignment of ICD (International Classification of Diseases) codes to patient medical data. This System intelligently maps patient data to most relevant ICD codes. Mistral AI was integrated to enhance contextual understanding, achieving 91% accuracy in ICD prediction.",
-    tags: [
-      {
-        name: "Django",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Mistral AI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "RAG",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Redis",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: icd,
-    source_code_link: "https://github.com/Karthick-2305-dev/ICD-Code-Matching",
-  },
-  {
-    name: "AskMyDoc",
-    description:
-      "It is an document-aware conversational AI system built using RAG. It allows users to upload one or more documents and then interact with it, similar to how ChatGPT works, but with knowledge of uploaded documents. By combining semantic search with LLM, the system provides accurate responses.",
-    tags: [
-      {
-        name: "RAG",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Weaviate",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Flask",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Web UI",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: rag,
-    source_code_link: "https://github.com/Karthick-2305-dev/RAG-PDF-Chat",
-  },
+ 
 ];
 
 export { experiences, projects, services, technologies, testimonials };

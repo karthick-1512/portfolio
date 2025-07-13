@@ -1,34 +1,35 @@
 import {
-  ai,
+  aws_logo,
   backend,
   cpp,
   creator,
   css,
-  django,
   docker,
-  flask,
   flutter,
   git,
   github1,
   html,
   icd,
+  java_logo,
   maestrominds,
-  mediwise,
   mobile,
   mongodb,
-  python,
+  node_logo,
   rag,
-  redis,
+  react_logo,
   sql,
-  thurro,
-  web,
-  zootoca,
+  web
 } from "../assets";
+import a3e_dip from "../assets/a3e_dip.png";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "work",
@@ -42,17 +43,18 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Python Developer",
-    icon: web,
-  },
-  {
-    title: "Backend Developer",
-    icon: mobile,
-  },
-  {
     title: "App Developer (Flutter)",
     icon: backend,
   },
+  {
+    title: "React.js Developer",
+    icon: web,
+  },
+  {
+    title: "Backend Developer(Node.js)",
+    icon: mobile,
+  },
+  
   {
     title: "Innovative Problem Solver",
     icon: creator,
@@ -61,44 +63,28 @@ const services = [
 
 const technologies = [
   {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "Django",
-    icon: django,
-  },
-  {
-    name: "Flask",
-    icon: flask,
-  },
-  {
-    name: "Flutter",
-    icon: flutter,
-  },
-  {
-    name: "C++",
-    icon: cpp,
-  },
-  {
-    name: "HTML",
-    icon: html,
-  },
-  {
-    name: "CSS",
-    icon: css,
-  },
-  {
-    name: "SQL",
-    icon: sql,
+    name: "Node js",
+    icon: node_logo,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
+  
+  
   {
-    name: "Redis",
-    icon: redis,
+    name: "Flutter",
+    icon: flutter,
+  },
+  
+ 
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "React js",
+    icon: react_logo,
   },
   {
     name: "git",
@@ -109,64 +95,47 @@ const technologies = [
     icon: github1,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "Java",
+    icon: java_logo,
+  },
+   {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "CSS",
+    icon: css,
+  },
+  {
+    name: "AWS",
+    icon: aws_logo,
+  },
+  {
+    name: "C++",
+    icon: cpp,
   },
 ];
 
 const experiences = [
+  
   {
-    title: "Web Developer",
-    company_name: "Zootoca Technologies",
-    icon: zootoca,
-    iconBg: "#383E56",
-    date: "June 2024 - July 2024",
-    points: [
-      "Improved backend system efficiency by 35% through optimization.",
-      "Enhanced API responsiveness for better frontend integration.",
-      "Collaborated on feature deployment using Postman and gained hands-on experience with Figma.",
-      "Gained experience in real-world web architecture and deployment.",
-    ]
-  },
-  {
-    title: "Application Developer Intern",
+    title: "SDE Intern",
     company_name: "Maestrominds",
     icon: maestrominds,
     iconBg: "#383E56",
-    date: "Mar 2025 - Apr 2025",
+    date: "Sep 2024 -  May 2025",
     points: [
-      "Developed a mobile application for TNAPEx using Flutter and Django.",
-      "Integrated Firebase for real-time database and user authentication.",
-      "Improved application usability and performance by 40%.",
+      "Led a team in developing and successfully deploying 3 apps on the Play Store",
+      "Integrated OTP login, Razorpay payments, Multi-language support, Geo-tagging, and YouTube streaming.",
+      
       "Delivered a scalable MVP with clean UI/UX and smooth data sync.",
     ],
   },
-  {
-    title: "Backend Developer Intern",
-    company_name: "114 AI INNOVATION LLP",
-    icon: ai,
-    iconBg: "#ffffff",
-    date: "Feb 2025 - July 2025",
-    points: [
-      "Automated manual diagnosis mapping workflows in healthcare systems.",
-      "Developed an ICD code mapping system using NLP and Mistral AI, achieving 91% accuracy.",
-      "Gained hands-on experience with RAG techniques, Redis Database and other related technologies.",
-      "Designed and deployed scalable backend services using Python, Django, and RAG.",
-    ],
-  },
-  {
-    title: "Python Developer Intern",
-    company_name: "Thurro",
-    icon: thurro,
-    iconBg: "#ffffff",
-    date: "June 2025 - Present",
-    points: [
-      "Developing and maintaining Software systems using Python and related frameworks.",
-      "Integrating third-party APIs and optimizing server-side performance.",
-      "Collaborating with product and engineering teams to build scalable features.",
-      "Using Git for version control and following agile development practices.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
@@ -198,29 +167,29 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Mediwise",
+    name: "A3E - Diploma in Patient Care",
     description:
-      "An intelligent Mobile Application that analyzes medical reports and visible symptoms to predict possible diseases and suggest medications. It includes features like Patient Health records, Doctor Connectivity, AI-based Chatbot, Image-based Detection and secure ID-based access for Doctors.",
+    "A3E is a mobile application developed for a client to empower underprivileged women by providing structured training and certification as trained caretakers. The platform offers comprehensive online training modules, skill assessments, and real-time certification tracking, enabling women to gain meaningful employment.",
     tags: [
       {
         name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "Gemini AI",
+        name: "Node.js",
         color: "pink-text-gradient",
       },
       {
-        name: "RAG",
+        name: "Serverless",
         color: "orange-text-gradient",
       },
     ],
-    image: mediwise,
-    source_code_link: "https://github.com/Karthick-2305-dev/MediWise",
+    image: a3e_dip,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.education.nurse&pcampaignid=web_share",
   },
   {
     name: "ICD Code Mapper",

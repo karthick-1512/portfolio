@@ -8,31 +8,31 @@ const profiles = [
   {
     name: "LinkedIn",
     description: "Connect with me professionally on LinkedIn.",
-    link: "https://www.linkedin.com/in/Karthickb23",
+    link: "https://www.linkedin.com/in/karthick-b-aa9519257/",
     icon: "https://img.icons8.com/color/96/000000/linkedin.png",
   },
   {
     name: "GitHub",
     description: "Explore my projects and code on GitHub.",
-    link: "https://github.com/Karthickick-2305-dev",
+    link: "https://github.com/karthick-1512",
     icon: "https://img.icons8.com/color/96/000000/github.png",
   },
   {
     name: "LeetCode",
     description: "Check out my problem-solving skills on LeetCode.",
-    link: "https://leetcode.com/u/Karthickick-2305/",
+    link: "https://leetcode.com/KARTHICK_1512/",
     icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png",
   },
   {
     name: "Skillrack",
     description: "View my coding practice on Skillrack.",
-    link: "http://www.skillrack.com/profile/402949/52665ee32bb06f5ef539d15ff91e1b160ea0b35b",
+    link: "https://www.skillrack.com/faces/resume.xhtml?id=403352&key=414305255733eba6a8bc521fdf0c451439a36fd9",
     icon: "https://cdn.skillrack.com/profilepic/232344/1608128273958skillracklogo.jpg",
   },
   {
     name: "Resume",
     description: "Download or view my resume to learn more about my experience.",
-    link: "https://drive.google.com/file/d/1f4rYXKhaIWaDP06LMQy-DjB6kPPrLPD6/view",
+    link: "https://drive.google.com/file/d/1QEa34iiI3J00si1Vrjzl2akHD2c_SGYx/view?usp=sharing",
     icon: "https://img.icons8.com/color/96/000000/resume.png",
   },
 ];

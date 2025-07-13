@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 import { technologies } from "../constants";
+import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
-import { motion } from "framer-motion";
+import { BallCanvas } from "./canvas";
 
 const Tech = () => {
   const [isMobile, setIsMobile] = useState(false);

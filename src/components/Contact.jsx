@@ -40,7 +40,7 @@ const Contact = () => {
           to_name: "Karthick B",
           time: new Date().toLocaleString(),
           from_email: form.email,
-          to_email: "Karthickickking2305@gmail.com",
+          to_email: "karthickbaskar.eng@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY

@@ -46,18 +46,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
       >
-        Hey, I’m Karthick - a passionate software developer who loves
-        turning ideas into real, working tech. I build smart backend
-        systems with Python, Django and Flask, design apps with Flutter, 
-        and bring AI to life using tools like RAG and NLP. 
-        <br></br>
-        From scalable APIs to full-stack apps, I focus on creating fast, clean, and reliable 
-        solutions that actually solve problems. I’ve worked on healthcare platforms 
-        to hackathon-winning projects - always aiming to build with purpose, performance, 
-        and a touch of creativity.
-        <br></br>
-        Let’s build something awesome together.<br></br>
-        <b>Code that connects, apps that scale and AI that thinks.</b>
+       Hey, I’m Karthick — a developer who builds real, helpful tech from creative ideas. I build full-stack apps using Flutter and the MERN stack, with experience leading Play Store app development at Maestrominds.
+<br></br>
+From crafting responsive UIs to building scalable backend systems with Python, React.js, Node.js, and MongoDB — I focus on clean, efficient code. I'm skilled in CI/CD, Docker, security testing with Burp Suite, and strong in DSA with over 2,000 problems solved. I also explore Neural Networks and Retrieval-Augmented Generation (RAG) to create smarter systems.
+<br></br>
+Let’s build something awesome together.
+<br></br>
+<b>Code that connects, apps that scale, and systems that learn.</b>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

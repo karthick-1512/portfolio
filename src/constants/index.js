@@ -19,6 +19,7 @@ import {
   web
 } from "../assets";
 import a3e_dip from "../assets/a3e_dip.png";
+import airbnb_1 from "../assets/airbnb_1.png";
 
 export const navLinks = [
   {
@@ -188,6 +189,30 @@ const projects = [
     ],
     image: a3e_dip,
     source_code_link: "https://play.google.com/store/apps/details?id=com.education.nurse&pcampaignid=web_share",
+  },
+  {
+    name: "Airbnb Clone",
+description:"Built a full-stack Airbnb clone using the MERN stack with JWT authentication, Supabase image storage, and advanced search. Hosts can post listings, manage bookings, and track properties. Clients can browse, search, and book accommodations seamlessly. Designed for a responsive, user-friendly experience across devices.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SupaBase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: airbnb_1,
+    source_code_link: "https://github.com/karthick-1512/AirBnB-Prod-MERN/tree/deployment-(block-uploads-misuse-policy)",
   },
  
 ];
